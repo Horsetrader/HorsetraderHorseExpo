@@ -1,0 +1,5 @@
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\bin\Release\DAL.dll
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\bin\Release\DAL.pdb
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\obj\Release\DAL.dll
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\obj\Release\DAL.pdb

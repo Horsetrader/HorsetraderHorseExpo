@@ -1,0 +1,20 @@
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo2\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo2\DAL\bin\Debug\DAL.dll
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo2\DAL\bin\Debug\DAL.pdb
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo2\DAL\obj\Debug\DAL.dll
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo2\DAL\obj\Debug\DAL.pdb
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\bin\Debug\DAL.dll
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\bin\Debug\DAL.pdb
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\obj\Debug\DAL.dll
+C:\Users\ivalles\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\obj\Debug\DAL.pdb
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\bin\Debug\DAL.dll
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\bin\Debug\DAL.pdb
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\obj\Debug\DAL.dll
+C:\Users\Vaies\Dropbox\Work\DataSkill\Projects\Horsetrader\HorsetraderHorseExpo\DAL\obj\Debug\DAL.pdb
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\bin\Debug\DAL.dll
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\bin\Debug\DAL.pdb
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\obj\Debug\DAL.dll
+V:\Horsetrader Source\HorsetraderHorseExpo\DAL\obj\Debug\DAL.pdb

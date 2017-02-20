@@ -1,0 +1,14 @@
+V:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\BLL.dll
+V:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\BLL.pdb
+V:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\DAL.dll
+V:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\DAL.pdb
+V:\Horsetrader Source\HorsetraderHorseExpo\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+V:\Horsetrader Source\HorsetraderHorseExpo\BLL\obj\Release\BLL.dll
+V:\Horsetrader Source\HorsetraderHorseExpo\BLL\obj\Release\BLL.pdb
+U:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\BLL.dll
+U:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\BLL.pdb
+U:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\DAL.dll
+U:\Horsetrader Source\HorsetraderHorseExpo\BLL\bin\Release\DAL.pdb
+U:\Horsetrader Source\HorsetraderHorseExpo\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+U:\Horsetrader Source\HorsetraderHorseExpo\BLL\obj\Release\BLL.dll
+U:\Horsetrader Source\HorsetraderHorseExpo\BLL\obj\Release\BLL.pdb
