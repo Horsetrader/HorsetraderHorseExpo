@@ -1,0 +1,715 @@
+﻿/******************
+Bootstrap
+******************/
+
+body 
+{
+    padding-top: 40px;
+    font-size: 12px;
+    font-family: Tahoma, sans-serif;
+    color: #666666;
+    line-height: 1.5;
+}
+
+a
+{
+    color: #0854C7;
+}
+
+.dropdown > .dropdown-menu 
+{
+    display: block;
+    position: static;
+    margin-bottom: 5px;
+    min-width: 220px;
+}
+
+.nav-list img
+{
+    width: 50px;
+    border: 0;
+}
+
+.nav-list span
+{
+    color: #666666;
+}
+
+.nav-list a:first-child .event-title
+{
+    font-weight: bold;
+}
+
+.nav-header, span.event-date
+{
+    color: #df263c;
+}
+
+label
+{
+    display: inline;
+    margin: 0 15px 0 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/******************
+Navigation Bar
+******************/
+
+div#topnav
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/header-background.jpg) repeat-x;
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #eeac10;
+    color: #FFFFFF;
+    z-index:9998;
+}
+
+div#topnavbox
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+div#topnavleft
+{
+    width: 593px;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+}
+
+div#topnavsocial
+{
+    width: 100px;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+}
+
+div#topnavsocial a
+{
+    margin-right: 2px;
+    margin-left: 0px;
+}	
+div#topnavright
+{
+    text-align: right;
+    float: right;
+}
+
+div#topnav input[type=text]
+{
+    width: 80px;
+    margin-bottom: 2px;
+}
+
+div#topnav a
+{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div#topnavleft a
+{
+    color: #ffd500;
+    margin-left: 3px;
+}
+
+/******************
+Header
+******************/
+
+div#headerContainer
+{
+    background: url(../images/header-background.jpg) repeat-x;
+    width:100%;
+    margin-top: -7px;
+}
+
+div#header
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:940px;
+    height: 95px;
+    background: url(../images/HORSEXPO_searchframe.jpg) no-repeat left;
+}
+
+.logo
+{
+    background-image:url(../images/TheNewHorsetrader.png);    
+    height:95px;
+    background-position:left;
+    background-repeat:no-repeat;
+}
+
+.searchBoxContainer
+{
+    width: 600px;
+    float: right;
+    margin-top: 30px;
+}
+
+.searchButton
+{
+    width:85px;
+    height:35px;
+    float:right;
+    background-image: url(../images/SearchButton_bg.png);
+    border:0;
+    color:white;
+    font-weight:bolder;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.searchInnerContainer
+{
+    width:480px;
+    height:29px;
+    border-top:3px solid Black;
+    border-bottom:3px solid Black;
+    border-left:3px solid Black;
+    float:right;
+    background-color:White;
+}
+
+.searchBox
+{
+    margin-top:4px;
+    float:left;
+    width:455px;
+    margin-left:5px;
+    margin-right:5px;
+    border:none;
+    font-size:12px;
+}
+
+.searchCategories
+{
+    float:right;
+    width:110px;
+    margin:1px 4px 4px 4px;
+    border:none;   
+    font-weight:bold; 
+    font-size: 13px;
+    height: 27px;
+}
+
+.searchBoxSeparator
+{
+    float:right;
+    margin:4px;
+}
+
+.headerLinks
+{
+    float:right;
+    margin:5px;
+        
+}
+
+.blueLink
+{
+    font-weight:bolder;
+    color:#539ec6;    
+    font-size:14px;
+}
+
+/******************
+Sidebar
+******************/
+
+.categoriesHeader 
+{
+    font-size: 17px;
+    font-weight: normal;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+    margin: 15px 0 10px 0;
+}
+
+/******************
+Banner
+******************/
+
+div#headerspace
+{
+    margin-top: 1px;
+    float: left;
+    width: 940px;
+}
+
+div#headerspaceleft
+{
+    float: left;
+    width: 570px;
+    height: 70px;
+    background-color: #e6e6e6;
+}
+
+div#headerspaceright
+{
+    float: right;
+    height: 70px;
+    width:170px;
+}
+
+div#homeordertitle
+{
+    float: left;
+    text-align: center;
+}
+
+div#homeordertitleleft2
+{
+    float: left;
+    padding-left: 20px;
+    text-align: right;
+}
+
+div#homeordertitleright2
+{
+    float: right;
+    font-size: 14px;
+    text-align: left;
+    color: #80bd3d;
+    font-weight: bold;
+}
+
+/******************
+Breadcrumbs
+******************/
+
+div#breadcrumbs
+{
+    margin: 10px 0 15px 20px;
+    font-size: 14px;
+}
+
+#showsLink
+{
+    margin-bottom: 15px;
+    display: none;
+}
+
+/**********************
+Ad Results - General
+***********************/
+
+.topSection
+{
+    float: right;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.titleSection
+{
+    float: left;
+}
+
+.redTitleSection
+{
+    float:left;        
+}
+
+.redTitle
+{
+    font-size: 16px;
+    color: #F14950;
+    font-family: 'Nobile' , arial, serif;
+    font-weight:normal;
+}
+
+.filters select
+{
+    width: auto;
+    font-size: 13px;
+    height: 27px;
+    margin-bottom: 5px;
+}
+
+.filters span
+{
+    font-size: 13px;
+}
+
+#divCurrentZipcode, #divEnterZipcode
+{
+    display: none;
+    margin-left: 5px;
+}
+
+#userZipcode
+{
+    cursor: pointer;
+}
+
+#tbxUserZipcode 
+{
+    width: 50px;
+}
+
+.loadingOverlay
+{
+    background-color: white;
+    filter: alpha(opacity=0);
+    opacity: 0.6;
+}
+
+#loadingMessage
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    display: none;
+}   
+
+.facility
+{
+    margin-bottom: 5px;
+    font-size: 13px;
+    float: left;
+    width: 125px;
+}
+
+/**********************
+Ad Results - List View
+***********************/
+
+#searchResults
+{
+    border-top: 1px solid #d6d6d6;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+div.searchresultsingle
+{
+    width: 700px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+div.searchresultsingle_left
+{
+    float: left;
+    width: 100px; /*padding: 2px;*/
+    font-size: 11px;
+    color: #666666;
+    text-align: center;
+}
+
+div.searchresultsingle_right
+{
+    float: right;
+    width: 580px;
+    padding-left: 5px;
+    border-top: 1px dotted #d6d6d6;
+    padding-top: 10px;
+}
+
+div.first-item
+{
+    border-top: none;
+    padding-top: 10px;
+}
+
+div.searchresultsingle_fastad
+{
+    float: left;
+    width: 96px;
+    padding: 2px;
+    font-size: 11px;
+    background-color: #e6e6e6;
+    color: #666666;
+    text-align: center;
+}
+
+div.searchresultsbody_left
+{
+    float: left;
+    width: 360px;
+}
+
+div.searchresultscontent_left
+{
+    float: left;
+    width: 50%;
+}
+div.searchresultscontent_right
+{
+    float: right;
+    width: 50%;
+}
+
+div.searchresultscontent_right a.blueLink
+{
+    display: block;
+    font-size: 12px;
+}
+
+.searchresultsbody_left p
+{
+    margin-bottom: 0;
+}
+
+.searchresultsbody_left a
+{
+    margin-left: 10px;
+}
+
+div.searchresultsbody_right
+{
+    float: right;
+    width: 220px;
+    text-align: right;
+}
+
+div.searchresultsingle_actions
+{
+    float: left;
+    margin-top: 10px;
+    width: 580px;
+}
+
+.eventtitle
+{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.eventdate
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #df263c;
+}
+
+.showdistance
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #F14950;
+}
+
+#showsResults
+{
+    border-top: 1px solid #d6d6d6;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/******************
+Footer
+******************/
+
+div#footer 
+{
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+/******************
+Sexy Buttons
+******************/
+
+.sexybutton
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+	background: none;
+	border: none;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	
+	/* Fix extra width padding in IE */
+	_width: 0;
+	overflow: visible;
+}
+
+.sexybutton.sexysimple
+{ 
+	position: relative; 
+	padding: 5px 10px 5px;
+	font: inherit;
+	font-size: 13px;
+	font-style: normal; 
+	font-weight: bold; 
+	color: #fff;
+	line-height: 1; 
+	background-image: url(http://arena.horsetrader.com/earena/norcotest/sexybuttons/images/skins/simple/awesome-overlay-sprite.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	background-color: #333;
+	
+	/* Special effects */
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25); 
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	
+	/* IE only stuff */
+	border-bottom: 1px solid transparent\9;
+	_background-image: none;
+	
+	/* Cross browser inline block hack - http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	display: -moz-inline-stack;
+	display: inline-block;
+	/*vertical-align: middle;*/
+	*display: inline !important;
+	position: relative;
+	
+	/* Force hasLayout in IE */
+	zoom: 1;
+	
+	/* Disable text selection (Firefox only)*/
+	-moz-user-select: none;
+}
+
+.sexybutton.sexysimple::selection
+{
+	background: transparent;
+}
+
+.sexybutton span.search
+{
+    background-image: url(../images/magnifier.png);
+}
+
+.sexybutton span.map
+{
+    background-image: url(../images/map.png);
+}
+
+.sexybutton span.email
+{
+    background-image: url(../images/email.png);
+}
+
+.sexybutton span.user 
+{
+    background-image: url(../images/user.png);
+}
+
+.sexybutton.sexysimple span
+{
+    height: auto;
+    padding-left: 24px;
+    padding-right: 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.sexybutton.sexysimple:hover
+{
+	background-position: 0 -50px; 
+	color: #fff;
+}
+
+.sexybutton.sexysimple:active { 
+	background-position: 0 100%; 
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.7); 
+	/* Unfortunately, Safari doesn't support inset yet */
+	-webkit-box-shadow: none;
+	
+	/* IE only stuff */
+	border-bottom: 0\9;
+	border-top: 1px solid #666\9;
+}
+
+.sexybutton.sexysimple.sexysmall
+{
+    padding: 4px 7px 5px; font-size: 10px; 
+}
+
+.sexybutton.sexysimple.sexysmall:active
+{
+    padding: 5px 7px 4px;
+}
+
+.sexybutton.sexysimple.sexyred		{ background-color: #a90118; }
+.sexybutton.sexysimple.sexygreen		{ background-color: #59a901; }
+.sexybutton.sexysimple.sexyblue {
+background-color: #015ea9;
+}
+
+/******************
+Event Details
+******************/
+
+#divImage
+{
+    text-align: center;
+}
+
+.stats
+{
+    font-weight: bold;
+}
+
+/******************
+Event List
+******************/
+
+.event-list-header
+{
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.event-list-header img
+{
+    width: 120px;
+}
+
+.nav-list-icons
+{
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav-list-icons img
+{
+    margin-left: 5px;
+}
+
+div.event-image
+{
+    float:left;
+    width:50px;
+    min-height: 1px;
+    margin-left: 20px;
+}
+
+div.event-details
+{
+    float:left;
+    width:115px;
+    min-height: 1px;
+    margin-left: 5px;
+}
+
+div.event-details span
+{
+    display: block;
+}

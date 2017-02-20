@@ -1,0 +1,1946 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, del, dfn, em, font, img, ins, kbd, q, s, samp, acronym, address, big, cite, code, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+}
+caption, th, td
+{
+    text-align: left;
+    font-weight: normal;
+}
+table
+{
+    border-collapse: separate;
+    border-spacing: 0;
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: "";
+}
+blockquote, q
+{
+    quotes: "" "";
+}
+/*{margin:0;padding:0;}*/
+
+html, body
+{
+    font-size: 12px;
+    font-family: Tahoma, sans-serif;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.description
+{
+    font-size: 11px;
+}
+
+.menutitle
+{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.center
+{
+    text-align: center;
+    font-size: 11px;
+}
+
+.viewmore
+{
+    font-size: 11px;
+    text-align: right;
+    margin-top: 3px;
+}
+
+a
+{
+    color: #0854C7;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+ul
+{
+    background: none;
+    margin-top: 5px;
+}
+
+li
+{
+    list-style-type: none; /*padding-left: 20px; margin-left: 5px; background: url('icons/bullet_green.png') no-repeat;*/
+}
+
+div#container
+{
+    width: 870px;
+    margin: auto;
+	text-align:left;
+}
+
+div#topnav
+{
+    position: absolute;
+    top: 0;
+    left: 0; /*background: #F5F5F5;*/
+    background: #C60000;
+    width: 100%;
+    height: 32px; /*border-bottom: 1px solid #d6d6d6;*/
+    border-bottom: 1px solid #F14950;
+    color: #FFFFFF;
+    z-index:9998;
+}
+
+div#topnavbox
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 870px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+div#topnavleft
+{
+    width: 555px;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+}
+div#topnavsocial
+{
+    width: 100px;
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+}
+div#topnavsocial a
+{
+    margin-right: 2px;
+    margin-left: 0px;
+}	
+div#topnavright
+{
+    width: 215px;
+    text-align: right;
+    float: right;
+}
+
+div#topnav input
+{
+    width: 80px;
+}
+
+div#topnav a
+{
+    color: #FFFFFF;
+    font-weight: bold; /*text-shadow: 1px 1px 1px #E6E6E6;*/
+}
+div#topnavleft a
+{
+    margin-right: 10px;
+    margin-left: 3px;
+}
+div#header
+{
+    width: 870px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+div#logo
+{
+    width: 250px;
+    height: 80px;
+    float: left;
+}
+
+div#freesearch
+{
+    width: 586px;
+    height: 60px; /*padding-top: 40px;*/
+    font-size: 11px;
+    float: right;
+    background: url('http://horsetrader.com/images/searchbar_3.gif');
+}
+
+div#freesearchinner
+{
+    float: right;
+    margin-top: 22px;
+    margin-right: 18px;
+}
+
+div#freesearchsub
+{
+    float: left;
+    font-size: 11px;
+    color: #999999;
+    padding-left: 55px;
+    margin-top: 2px; /*font-style: italic;*/
+}
+
+div#freesearchinner input
+{
+    width: 285px;
+    height: 35px;
+    border: 1px solid #f14950; /* color: #b6b6b6; */
+    color: #969696;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+div#freesearchinner a
+{
+    /*margin-left: 25px; font-size: 12px;*/
+    text-decoration: none;
+}
+
+div#freesearchinnerie
+{
+    float: right;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+div#freesearchinnerie input[type="text"]
+{
+    width: 295px;
+    height: 25px;
+    border: 1px solid #f14950; /* color: #b6b6b6; */
+    color: #969696;
+    font-size: 16px; /*padding-left: 5px;*/
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+
+div#banner
+{
+    float: left;
+    width: 900px;
+    height: 57px;
+    background-image: url('http://horsetrader.com/images/searchbar_1.png');
+}
+
+div#bannerinner
+{
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+div#bannerinner a
+{
+    margin-left: 20px;
+    color: white;
+}
+
+div#bannerinner input
+{
+    width: 295px;
+    height: 25px;
+    border: 1px solid #f14950; /* color: #b6b6b6; */
+    color: #969696;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+div#subbanner
+{
+    float: left;
+    width: 870px;
+    height: 40px;
+    background-image: url('http://horsetrader.com/images/subbanner.jpg');
+}
+
+div#subbannerright
+{
+    float: right;
+    width: 250px;
+    margin-top: 8px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+div#subbannerright input
+{
+    width: 80px;
+}
+
+div#subbannerleft
+{
+    margin-top: 10px;
+    padding-left: 10px;
+    float: left;
+    width: 590px;
+}
+
+div#subbanner a
+{
+    margin-right: 20px;
+    margin-left: 3px;
+    color: #666666; /*text-shadow: 1px 1px 1px #E6E6E6;*/
+}
+
+div#quicksearch
+{
+    padding-top: 4px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+    width: 852px;
+    height: 25px;
+    background-color: #fff9c9;
+    border: 1px solid #ffe69b;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div#quicksearch a
+{
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+
+div#content
+{
+    float: left;
+    width: 870px;
+}
+
+div#bannerads
+{
+    float: left;
+    width: 870px;
+}
+
+div#banneradsleft
+{
+    float: left;
+    width: 570px;
+    height: 70px;
+    background-color: #e6e6e6;
+}
+
+div#banneradsright
+{
+    float: right;
+    width: 200px;
+    height: 63px;
+    padding-top: 5px;
+    margin-left: 5px; /*background-color: #FFF9C9; border: 1px solid #FFE69B;*/
+    border: 1px dotted #d6d6d6;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+div#banneradsright ul
+{
+    margin-top: -3px;
+}
+
+div#banneradsright li
+{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-left: 50px;
+    background: url('icons/bullet_go.png') no-repeat;
+}
+
+div#banneradsright h1
+{
+    font-size: 14px;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+div#banneradshome
+{
+    float: right;
+    width: 575px;
+    margin-right: 6px;
+}
+
+div#breadcrumbs
+{
+    float: left;
+    width: 870px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+div#breadcrumbsleft
+{
+    float: left;
+    width: 435px;
+    margin-top: 3px;
+}
+
+div#breadcrumbsright
+{
+    float: right;
+    width: 435px;
+    text-align: right;
+}
+
+div#home1
+{
+    float: left;
+    width: 870px;
+}
+
+div#home2
+{
+    float: left;
+    width: 870px;
+    margin-top: 10px;
+}
+
+div#homewhatsforsale
+{
+    float: left;
+    padding: 10px;
+    width: 250px;
+    height: 140px;
+    border: 1px dotted #d6d6d6;
+}
+
+div#homewhatsforsale h1
+{
+    font-size: 14px;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+    margin-bottom: 5px;
+}
+
+div#homewhatsforsale li
+{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-left: 5px;
+    background: url('icons/bullet_go.png') no-repeat;
+}
+
+div#homecategories
+{
+    float: left;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #d6d6d6;
+}
+
+div#homecategories h1
+{
+    font-size: 14px;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+    margin-bottom: 5px;
+}
+
+.homecategorycount
+{
+    font-size: 11px;
+    display: inline;
+    color: #999999;
+}
+
+div#homeorder
+{
+    width: 563px;
+    height: 140px;
+    float: right;
+    padding: 10px; /*border: 1px solid #d6d6d6;*/
+}
+
+div#homeorder h1
+{
+    font-size: 14px;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#homeorderleft
+{
+    float: left;
+    width: 272px;
+    text-align: center;
+}
+
+div#homeordertitle
+{
+    float: left;
+    text-align: center;
+}
+
+
+div#homeordertitleleft
+{
+    float: left;
+    width: 50px;
+    padding-left: 20px;
+    text-align: right;
+}
+
+div#homeordertitleright
+{
+    width: 195px;
+    float: right;
+    font-size: 14px;
+    text-align: left;
+    color: #2776b6;
+    font-weight: bold;
+}
+
+div#homeordertitleleft2
+{
+    float: left;
+    padding-left: 20px;
+    text-align: right;
+}
+
+div#homeordertitleright2
+{
+    float: right;
+    font-size: 14px;
+    text-align: left;
+    color: #80bd3d;
+    font-weight: bold;
+}
+
+
+
+div#homeordertitlebutton
+{
+    float: left;
+}
+
+div#homeorderright
+{
+    float: right;
+    width: 272px;
+    text-align: center;
+}
+
+div#homeeditorial
+{
+    /*width: 563px;*/
+    float: right; /*padding: 10px;*/ /*border: 1px solid #d6d6d6;*/
+    z-index:-1;
+}
+
+div#featuredads
+{
+    width: 563px;
+    float: right;
+    padding: 10px; 
+    margin-top: 15px;
+}
+
+div#featuredads h1
+{
+    font-size: 14px;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+    margin-bottom: 5px;
+}
+
+div#coupons
+{
+    float: right;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:30px;
+}
+
+div#coupons h1
+{
+    font-size: 14px;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+    margin-bottom: 5px;
+}
+
+.featuredadstitle
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div#featuredads_fastad
+{
+    float: left;
+    width: 71px;
+    padding: 2px;
+    font-size: 11px;
+    background-color: #e6e6e6;
+    color: #666666;
+    text-align: center;
+}
+
+div#featuredadsrow
+{
+    float: left;
+    width: 563px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+div#featuredadsbody
+{
+    float: left;
+    width: 272px;
+    margin-right: 5px;
+}
+
+div#featuredadsleft
+{
+    float: left;
+    width: 75px;
+}
+
+div#featuredadsright
+{
+    float: right;
+    width: 190px;
+    font-size: 11px;
+}
+
+div#showsandeventsleft
+{
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #d6d6d6;
+    background-color: #f5f5f5;
+}
+
+div#showsandeventsleft h1
+{
+    font-size: 14px; /*color: #f14950;*/
+    font-family: 'Nobile' , arial, serif;
+    margin-bottom: 5px;
+}
+
+div#showsandeventsleft select
+{
+    width: 150px;
+    margin-top: 5px;
+}
+
+div#showsandeventsleft input
+{
+    width: 50px;
+    margin-top: 5px;
+}
+
+div#showsandeventsright
+{
+    width: 635px;
+    margin-top: 11px;
+    float: right;
+}
+
+div#showsandeventsright h1
+{
+    font-size: 14px;
+    color: #f14950;
+    font-family: 'Nobile' , arial, serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+div#showsandeventssingle
+{
+    float: left;
+    width: 635px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px dotted #e6e6e6;
+}
+
+.showtitle
+{
+    font-weight: bold;
+}
+
+div#showsandevents_fastad
+{
+    float: left;
+    width: 100px;
+    padding: 2px;
+    font-size: 11px;
+    background-color: #e6e6e6;
+    color: #666666;
+    text-align: center;
+}
+
+div#showsandevents_body
+{
+    float: right;
+    width: 525px;
+}
+
+div#showsandevents_bodyleft
+{
+    float: left;
+    width: 375px;
+}
+
+div#showsandevents_bodyright
+{
+    float: right;
+    width: 150px;
+    text-align: right;
+}
+
+div#showsandevents_actions
+{
+    float: left;
+}
+
+div#showsandevents_actions a
+{
+    margin-right: 30px;
+}
+
+.showdistance
+{
+    font-size: 11px;
+    font-weight: bold;
+    color: #F14950;
+}
+
+div#showsandeventsnav
+{
+    float: left;
+    width: 635px;
+    margin-top: 20px;
+}
+
+/* START SEARCH RESULTS */
+
+.adtitle
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.searchresulttitle
+{
+    font-size: 14px;
+}
+
+div#searchresultsleft
+{
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #e0e0e0;
+    background-color: #F5F5F5;
+}
+
+div#searchresultsleft h1
+{
+    font-size: 16px;
+    color: #f14950;
+    margin-bottom: 5px;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#searchresultsleft select
+{
+    width: 150px;
+    margin-top: 5px;
+}
+
+div#searchresultsleft input
+{
+    width: 50px;
+    margin-top: 5px;
+}
+
+div#searchresultsright
+{
+    /*width: 625px;*/
+    margin-top: 11px;
+    float: right;
+}
+
+div#searchresultsrightsingle
+{
+    /*width: 625px;*/
+    margin-top: 10px;
+    float: right;
+}
+
+div#searchresultscontent
+{
+    width: 625px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    float: right; /*border: 1px solid #e0e0e0;*/
+}
+
+div#searchresultscontentfreeform
+{
+    width: 625px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    float: right;
+    border: 1px solid #e0e0e0;
+}
+
+div#searchresultsingle
+{
+    width: 625px;
+    float: left;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px dotted #d6d6d6;
+}
+
+div#searchresultsingle_left
+{
+    float: left;
+    width: 100px; /*padding: 2px;*/
+    font-size: 11px;
+    color: #666666;
+    text-align: center;
+}
+
+div#searchresultsingle_fastad
+{
+    float: left;
+    width: 96px;
+    padding: 2px;
+    font-size: 11px;
+    background-color: #e6e6e6;
+    color: #666666;
+    text-align: center;
+}
+
+div#searchresultsingle_right
+{
+    float: right;
+    width: 516px;
+    padding-left: 5px;
+}
+
+div#searchresultsbody_left
+{
+    float: left;
+    width: 375px;
+}
+
+div#searchresultsbody_right
+{
+    float: right;
+    width: 140px;
+    text-align: right;
+}
+
+div#searchresultsingle_actions
+{
+    float: left;
+    margin-top: 10px;
+    width: 516px;
+}
+
+div#searchresultsright h1
+{
+    font-size: 16px;
+    color: #f14950;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#searchresultsrightsingle h1
+{
+    font-size: 16px;
+    color: #f14950; /*margin-top: 11px;*/
+    margin-bottom: 5px;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#searchcategories
+{
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #d6d6d6;
+}
+
+div#searchsidebar
+{
+    float: left;
+    width: 200px;
+}
+
+div#searchcategories h1
+{
+    font-size: 14px;
+    color: #f14950;
+    margin-bottom: 5px;
+    font-family: 'Nobile' , arial, serif;
+}
+
+/* END SEARCH RESULTS */
+
+/* START BROWSE ADS */
+
+div#browseads
+{
+    float: left;
+    width: 870px;
+}
+
+div#browseadsheader
+{
+    float: left;
+    width: 850px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    background-color: #F5F5F5;
+}
+
+div#browseads h1
+{
+    font-size: 14px;
+    color: #f14950; /*margin-top: 10px;*/
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#browseads h2
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+div#browseadscolumn
+{
+    float: left;
+    width: 200px;
+}
+
+div#browseadscolumnright
+{
+    float: right;
+    width: 200px;
+}
+
+div#browseadscolumnwide
+{
+    float: left;
+    width: 400px;
+    margin-top: 5px;
+}
+
+.browsedescription
+{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+/* END BROWSE ADS */
+
+/* START INFO FEATURES */
+
+div#features
+{
+    float: left;
+    width: 870px;
+}
+
+div#featuresheader
+{
+    float: left;
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    background-color: #F5F5F5;
+}
+
+div#features h1
+{
+    font-size: 14px;
+    color: #f14950; /*margin-top: 10px;*/
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#featuresleft
+{
+    width: 400px;
+    float: left;
+    margin-top: 5px;
+}
+
+div#featuresright
+{
+    width: 400px;
+    float: right;
+    margin-top: 5px;
+}
+
+div#featuresrow
+{
+    width: 850px;
+    float: left;
+    margin-top: 5px;
+}
+
+div#featuresrow2
+{
+    width: 850px;
+    float: left;
+    margin-top: 25px;
+}
+
+.featuresbold
+{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.featuresp
+{
+    margin-bottom: 5px;
+}
+
+/* END INFO FEATURES */
+
+/* START LOADING WINDOW */
+div#loadingwindow
+{
+    float: left;
+    text-align: center;
+    width: 570px;
+    height: 50px;
+    left: 100px;
+    top: 100px;
+    margin-top: 50px;
+    display: none;
+}
+/* END LOADING WINDOW */
+
+/* START PRIVACY */
+
+div#privacy
+{
+    width: 400px;
+}
+
+.privacybold
+{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+div#privacy h1
+{
+    font-size: 16px;
+    color: #F14950;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#refund
+{
+    padding:10px;
+    width: 500px;
+}
+
+div#refund h1
+{
+    font-size: 16px;
+    color: #F14950;
+    font-family: 'Nobile' , arial, serif;
+}
+
+/* END PRIVACY */
+
+/* START JUST FOTOTRADERS */
+div#searchresultsfototrader
+{
+    width: 625px; /*padding-top: 5px;*/
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    float: right;
+    border: 1px solid #e0e0e0;
+}
+
+div#searchresultsfototraderheader
+{
+    width: 625px;
+    float: left;
+}
+
+div#searchresultsfototraderheaderleft
+{
+    float: left;
+    width: 310px;
+    font-size: 16px;
+    margin-top: 4px;
+    padding-left: 3px;
+}
+
+div#searchresultsfototraderheaderright
+{
+    float: right;
+    width: 305px;
+    margin-top: 15px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+div#searchresultsfototraderheader h1
+{
+    float: left;
+    width: 625px;
+}
+
+div#fototradersingle
+{
+    float: left;
+    width: 200px;
+    height: 295px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+}
+
+.fototradertitle
+{
+    font-weight: bold;
+}
+
+.fototraderdistance
+{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.fototraderdistancered
+{
+    font-size: 11px;
+    color: Red;
+}
+
+.fototraderdescription
+{
+    font-size: 11px;
+}
+
+.fototraderlink
+{
+    font-size: 11px;
+}
+
+.fototraderprice
+{
+    color: Green;
+}
+
+/* END JUST FOTOTRADERS */
+
+/* COUPONS */
+.displayAd_CompanyName
+{
+    font-family:Verdana;
+    font-size: 20px;
+    color: Red;
+    margin-bottom: 5px;
+    font-weight: bold;
+    vertical-align: top;
+    
+}
+.coupon_title
+{
+    font-family:Verdana;
+    font-size: 20px;
+    color: Red;
+    margin-bottom: 5px;
+    font-weight: bold;
+    vertical-align: top;
+    
+}
+.coupon_listingLinks table td
+{
+    padding-right: 4px;
+    vertical-align:bottom;
+}
+.coupon_amount, .coupon_terms
+{
+    font-family:Verdana;
+    font-size: 20px;
+    color: Black;
+    margin-bottom: 5px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+/* START VIEW FULL AD */
+
+div#fullad
+{
+    float: left;
+    width: 846px;
+    margin-top: 10px; /*border: 1px solid #d0e3ff;*/
+    border: 1px solid #E6E6E6; /*background-color: #F5F5F5;*/
+    padding: 10px;
+}
+
+div#fullad_error
+{
+    width: 847px;
+}
+
+.fullad_error_header
+{
+    color: #F14950;
+    font-weight: bold;
+}
+
+div#fullad_header
+{
+    width: 847px;
+    height: 65px;
+    border-bottom: 2px solid #E6E6E6;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+div#fullad_headerleft
+{
+    float: left;
+    width: 423px;
+}
+
+div#fullad_headerright
+{
+    float: right;
+    width: 422px;
+    font-size: 14px;
+    text-align: right;
+}
+
+div#fullad_headerright a:hover
+{
+    text-decoration: none;
+}
+
+div#fullad_body
+{
+    float: left;
+    width: 850px;
+    margin-top: 10px;
+}
+
+div#fullad_bodyleft
+{
+    float: left;
+    width: 400px;
+    border-right: 1px solid #E6E6E6;
+    padding-right: 12px; /*border: 1px solid #E6E6E6;*/
+}
+
+div#fullad_bodyright
+{
+    float: right;
+    width: 425px;
+}
+
+.fullad_title
+{
+    font-size: 16px;
+    color: #F14950;
+    margin-bottom: 5px;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#fullad_stats
+{
+    float: left;
+    width: 124px;
+    font-weight: bold;
+}
+
+div#fullad_stats2
+{
+    float: right;
+    width: 280px;
+}
+
+div#fullad_stats3
+{
+    float: left;
+    width: 425px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div#fullad_contact
+{
+    float: left;
+    width: 850px;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 2px solid #E6E6E6;
+    text-align: center;
+}
+
+div#fullad h1
+{
+    float: left;
+    font-size: 16px;
+    color: #F14950; /*font-weight: bold;*/
+    margin-right: 10px;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#fullad_fastad
+{
+    float: left;
+    vertical-align: 2px;
+    background-color: #E6E6E6;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+div#fullad_price
+{
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+div#fulladleft
+{
+}
+
+div#fulladright
+{
+}
+
+/* END VIEW FULL AD */
+
+/* START AD SUGGESTIONS */
+div#suggest
+{
+    float: left;
+    width: 850px;
+    margin-top: 10px;
+    border: 1px solid #E6E6E6;
+    padding: 10px;
+    background-color: #F7F7F7;
+}
+
+div#suggest h1
+{
+    font-size: 14px;
+    font-family: 'Nobile' , Tahoma, sans-serif;
+}
+
+/* END AD SUGGESTIONS */
+
+/* START EMAIL ADVERTISER */
+div#emailcontainer
+{
+    width: 400px;
+    height: 275px;
+}
+
+div#emailcontainerbody
+{
+    float: left;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+div#emailcontainerleft
+{
+    float: left;
+    width: 150px;
+    font-weight: bold;
+}
+
+div#emailcontainerright
+{
+    float: right;
+    width: 250px;
+}
+
+div#emailcontainerright input
+{
+    width: 100px;
+}
+
+div#emailcontainer h1
+{
+    font-size: 16px;
+    color: #F14950;
+    font-family: 'Nobile' , arial, serif;
+}
+
+div#emaildescription
+{
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+/* END EMAIL ADVERTISER */
+
+/* START PEDIGREE */
+div#pedigreecontainer
+{
+    width: 400px;
+    height: 300px;
+}
+
+div#pedigreecontainer h1
+{
+    font-size: 18px;
+    color: #F14950;
+    font-family: 'Nobile' , arial, serif;
+}
+
+.pedigreedescription
+{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+div#pedigreecontainerbody
+{
+    float: left;
+    width: 600px;
+    margin-bottom: 5px;
+}
+
+div#pedigree1
+{
+    float: left;
+    margin-left: 65px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+div#pedigree1divider
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+div#pedigree2
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div#pedigree2divider
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+
+div#pedigree3
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div#sire
+{
+    margin-top: 50px;
+}
+
+div#dam
+{
+    margin-top: 100px;
+}
+
+div#sire_grandsire
+{
+    margin-top: 20px;
+}
+
+div#sire_granddam
+{
+    margin-top: 40px;
+}
+
+div#dam_grandsire
+{
+    margin-top: 45px;
+}
+
+div#dam_granddam
+{
+    margin-top: 40px;
+}
+
+div#sire_grandsire_s
+{
+    margin-top: 10px;
+}
+
+div#sire_grandsire_d
+{
+    margin-top: 3px;
+}
+
+div#sire_granddam_s
+{
+    margin-top: 20px;
+}
+
+div#sire_granddam_d
+{
+    margin-top: 3px;
+}
+
+div#dam_grandsire_s
+{
+    margin-top: 20px;
+}
+
+div#dam_grandsire_d
+{
+    margin-top: 5px;
+}
+
+div#dam_granddam_s
+{
+    margin-top: 20px;
+}
+
+div#dam_granddam_d
+{
+    margin-top: 3px;
+}
+
+/* END PEDIGREE */
+
+/* START CSS TABS */
+
+ul#tabnav
+{
+    /* general settings */
+    text-align: left; /* set to left, right or center */
+    font: bold 11px verdana, arial, sans-serif; /* set font as desired */
+    list-style-type: none; /*padding-top: 3px; */ /*padding-right: 10px;*/
+    padding-bottom: 6px; /*padding-left: 10px;*/
+}
+
+ul#tabnav li
+{
+    display: inline;
+    margin-right: 2px; /* Adjusts space between each tab */
+    font-size: 9px;
+}
+
+body#tab1 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4
+{
+    /* settings for selected tab */
+    border-bottom: 1px solid #d6d6d6; /* set border color to page background color */
+    background-color: #fff; /* set background color to match above border color */
+}
+
+body#tab1 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a
+{
+    /* settings for selected tab link */
+    background-color: #fff; /* set selected tab background color as desired */
+    color: #000; /* set selected tab link color as desired */
+    position: relative;
+    top: 1px;
+    padding-top: 4px; /* must change with respect to padding (X) above and below */
+}
+
+ul#tabnav li a
+{
+    /* settings for all tab links */
+    padding: 6px 8px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+    border: 1px solid #d6d6d6; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+    color: #0854c7; /* set unselected tab link color as desired */
+    margin-right: 0px; /* set additional spacing between tabs as desired */
+    text-decoration: none;
+    border-bottom: none;
+    background-color: #F5F5F5; /* TRUE BACKGROUND COLOR */
+}
+
+ul#tabnav a:hover
+{
+    /* settings for hover effect */
+    background-color: #dfdfdf; /* set desired hover color */
+}
+
+/* END CSS TABS */
+
+/* START JAVASCRIPT DROP-DOWN */
+
+#jsddm
+{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+#jsddm li
+{
+    float: left;
+    list-style: none;
+    margin-right: 70px;
+}
+
+#jsddm li a
+{
+    display: block;
+    text-decoration: none;
+    width: 70px;
+    white-space: nowrap;
+}
+
+#jsddm li a:hover
+{
+}
+
+#jsddm li ul
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden; /*border-top: 1px solid white;*/
+    margin-top: 5px;
+}
+
+#jsddm li ul li
+{
+    float: none;
+    display: inline;
+}
+
+#jsddm li ul li a
+{
+    width: auto;
+    background: #F5F5F5;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px; /*border: 1px solid #FFE69B;*/
+}
+
+#jsddm li ul li a:hover
+{
+    background: #FFE69B;
+}
+
+/* END JAVASCRIPT DROP-DOWN */
+
+div#footer
+{
+    font-size: 11px;
+    float: left;
+    width: 870px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+div#footerleft
+{
+    float: left;
+    width: 350px;
+}
+
+div#footerright
+{
+    float: right;
+}
+
+div#footerright a
+{
+    margin-left: 10px;
+}
+table.viewfullAdButtons
+{
+    margin-left:0px;
+}
+table.viewfullAdButtons td
+{
+    padding:5px;
+    padding-left:0px;
+}
+#wrap {
+    margin: 8px auto;
+    text-align: left;
+    width: 625px;
+}
+#userZipcode:hover
+{
+    cursor:pointer;
+    
+}
+
+/******************
+Header
+******************/
+
+div#headerContainer
+{
+    background: url(../images/header-background.jpg) repeat-x;
+    width:100%;
+    margin-top: -7px;
+}
+
+div#header
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:870px;
+    height: 95px;
+    background: url(../images/Equiery_searchframe.jpg) no-repeat left;
+}
+
+.logo
+{
+    background-image:url(../images/TheNewHorsetrader.png);    
+    height:95px;
+    background-position:left;
+    background-repeat:no-repeat;
+}
+
+.searchBoxContainer
+{
+    width: 600px;
+    float: right;
+    margin-top: 30px;
+}
+
+.searchButton
+{
+    width:85px;
+    height:35px;
+    float:right;
+    background-image: url(../images/SearchButton_bg.png);
+    border:0;
+    color:white;
+    font-weight:bolder;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.searchInnerContainer
+{
+    width:480px;
+    height:29px;
+    border-top:3px solid Black;
+    border-bottom:3px solid Black;
+    border-left:3px solid Black;
+    float:right;
+    background-color:White;
+}
+
+.searchBox
+{
+    margin-top:4px;
+    float:left;
+    width:328px;
+    margin-left:5px;
+    margin-right:5px;
+    border:none;
+    font-size:12px;
+}
+
+.searchCategories
+{
+    float:right;
+    width:110px;
+    margin:1px 4px 4px 4px;
+    border:none;   
+    font-weight:bold; 
+    font-size: 13px;
+    height: 27px;
+}
+
+.searchBoxSeparator
+{
+    float:right;
+    margin:4px;
+}
+
+.headerLinks
+{
+    float:right;
+    margin:5px;
+        
+}
+
+.blueLink
+{
+    font-weight:bolder;
+    color:#539ec6;    
+    font-size:14px;
+}
+
+/******************
+Sexy Buttons
+******************/
+
+.sexybutton
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+	background: none;
+	border: none;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	
+	/* Fix extra width padding in IE */
+	_width: 0;
+	overflow: visible;
+}
+
+.sexybutton.sexysimple
+{ 
+	position: relative; 
+	padding: 5px 10px 5px;
+	font: inherit;
+	font-size: 13px;
+	font-style: normal; 
+	font-weight: bold; 
+	color: #fff;
+	line-height: 1; 
+	background-image: url(http://arena.horsetrader.com/earena/norcotest/sexybuttons/images/skins/simple/awesome-overlay-sprite.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	background-color: #333;
+	
+	/* Special effects */
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25); 
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	
+	/* IE only stuff */
+	border-bottom: 1px solid transparent\9;
+	_background-image: none;
+	
+	/* Cross browser inline block hack - http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	display: -moz-inline-stack;
+	display: inline-block;
+	/*vertical-align: middle;*/
+	*display: inline !important;
+	position: relative;
+	
+	/* Force hasLayout in IE */
+	zoom: 1;
+	
+	/* Disable text selection (Firefox only)*/
+	-moz-user-select: none;
+}
+
+.sexybutton.sexysimple::selection
+{
+	background: transparent;
+}
+
+.sexybutton span.search
+{
+    background-image: url(../images/magnifier.png);
+}
+
+.sexybutton span.map
+{
+    background-image: url(../images/map.png);
+}
+
+.sexybutton.sexysimple span
+{
+    height: auto;
+    padding-left: 24px;
+    padding-right: 0;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.sexybutton.sexysimple:hover
+{
+	background-position: 0 -50px; 
+	color: #fff;
+}
+
+.sexybutton.sexysimple:active { 
+	background-position: 0 100%; 
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.7); 
+	/* Unfortunately, Safari doesn't support inset yet */
+	-webkit-box-shadow: none;
+	
+	/* IE only stuff */
+	border-bottom: 0\9;
+	border-top: 1px solid #666\9;
+}
+
+.sexybutton.sexysimple.sexysmall
+{
+    padding: 4px 7px 5px; font-size: 10px; 
+}
+
+.sexybutton.sexysimple.sexysmall:active
+{
+    padding: 5px 7px 4px;
+}
+
+.sexybutton.sexysimple.sexyred		{ background-color: #a90118; }
+.sexybutton.sexysimple.sexygreen		{ background-color: #59a901; }
+.sexybutton.sexysimple.sexyblue {
+background-color: #015ea9;
+}
+.sexybutton span.email			{ background-image: url(../images/email.png); }
+.sexybutton span.user			{ background-image: url(../images/user.png); }
+.sexybutton span.print			{ background-image: url(../images/printer.png); }

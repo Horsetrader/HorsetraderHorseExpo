@@ -1,0 +1,225 @@
+/******************
+Sexy Buttons
+******************/
+
+.sexybutton
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font: bold 13px "Helvetica Neue", Helvetica, Arial, clean, sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.20);
+	background: none;
+	border: none;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	
+	/* Fix extra width padding in IE */
+	_width: 0;
+	overflow: visible;
+}
+
+.sexybutton.sexysimple
+{ 
+	position: relative; 
+	padding: 5px 10px 5px;
+	font: inherit;
+	font-size: 13px;
+	font-style: normal; 
+	font-weight: bold; 
+	color: #fff;
+	line-height: 1; 
+	background-image: url(http://arena.horsetrader.com/earena/norcotest/sexybuttons/images/skins/simple/awesome-overlay-sprite.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	background-color: #333;
+	
+	/* Special effects */
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25), -2px 0 1px rgba(0,0,0,0.25); 
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5); 
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	
+	/* IE only stuff */
+	border-bottom: 1px solid transparent\9;
+	_background-image: none;
+	
+	/* Cross browser inline block hack - http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	display: -moz-inline-stack;
+	display: inline-block;
+	/*vertical-align: middle;*/
+	*display: inline !important;
+	position: relative;
+	
+	/* Force hasLayout in IE */
+	zoom: 1;
+	
+	/* Disable text selection (Firefox only)*/
+	-moz-user-select: none;
+}
+
+.sexybutton.sexysimple::selection
+{
+	background: transparent;
+}
+
+.sexybutton.sexysimple:hover
+{
+	background-position: 0 -50px; 
+	color: #fff;
+}
+
+.sexybutton.sexysimple:active { 
+	background-position: 0 100%; 
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.7); 
+	/* Unfortunately, Safari doesn't support inset yet */
+	-webkit-box-shadow: none;
+	
+	/* IE only stuff */
+	border-bottom: 0\9;
+	border-top: 1px solid #666\9;
+}
+
+.sexybutton.sexysimple.sexyred		{ background-color: #a90118; }
+.sexybutton.sexysimple.sexygreen		{ background-color: #59a901; }
+
+@media print 
+{
+    
+    * {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+      }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333333;
+      background-color: #ffffff;
+    }
+    
+    #printing-properties
+    {
+        display: none;
+    }
+
+    .row {
+      margin-left: -20px;
+      *zoom: 1;
+    }
+
+    .row:before,
+    .row:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+
+    .row:after {
+      clear: both;
+    }
+
+    [class*="span"] {
+      float: left;
+      min-height: 1px;
+      margin-left: 20px;
+    }
+
+    .container,
+    .navbar-static-top .container,
+    .navbar-fixed-top .container,
+    .navbar-fixed-bottom .container {
+      width: 940px;
+    }
+
+    .span12 {
+      width: 940px;
+    }
+
+    .span11 {
+      width: 860px;
+    }
+
+    .span10 {
+      width: 780px;
+    }
+
+    .span9 {
+      width: 700px;
+    }
+
+    .span8 {
+      width: 620px;
+    }
+
+    .span7 {
+      width: 540px;
+    }
+
+    .span6 {
+      width: 460px;
+    }
+
+    .span5 {
+      width: 380px;
+    }
+
+    .span4 {
+      width: 300px;
+    }
+
+    .span3 {
+      width: 220px;
+    }
+
+    .span2 {
+      width: 140px;
+    }
+
+    .span1 {
+      width: 60px;
+    }
+
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+      *zoom: 1;
+    }
+
+    .container:before,
+    .container:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+
+    .container:after {
+      clear: both;
+    }
+
+}
