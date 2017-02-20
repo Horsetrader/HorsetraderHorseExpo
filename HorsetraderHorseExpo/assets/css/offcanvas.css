@@ -1,0 +1,428 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+footer {
+  padding: 30px 0;
+}
+
+h1 > small {
+  display: block;
+  margin-top: 10px;
+}
+
+.navbar {
+    margin-bottom: 1px;
+}
+
+.navbar-inverse {
+  border-color: #080808;
+  background-image: url(../images/denim.jpg);
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #1D92FE;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: rgba(79, 99, 179, 0.57);
+}
+
+.navbar-brand {
+  width: 196px;
+  height: 50px;
+  padding: 0;
+}
+
+.navbar-form {
+    margin-right: -30px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus 
+{
+    background-color: #428bca;
+    color: #fff;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 15px;
+}
+
+.nav-tabs>li {
+  width: 32%;
+}
+
+.nav-tabs>li>a {
+  text-align: center;
+  border-color: #eee #eee #ddd;
+text-decoration: none;
+background-color: #F5F5F5;
+}
+
+.nav-tabs-vendors>li {
+  width: 20%
+}
+
+
+
+h2 small 
+{
+    display: block;
+    margin-top: 2%;
+}
+
+h2 em {
+    font-size: 65%;
+}
+
+.hidden-xs {
+    display: inline;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon span 
+{
+    width: auto!important;
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.well 
+{
+    clear: left;
+}
+
+.text-justify 
+{
+    text-align: justify;
+}
+
+/*
+ * Banner Ads
+ * --------------------------------------------------
+ */
+
+#action-item-right {
+    float:right; 
+    margin-top: 7px;
+    width: 205px;
+}
+
+#action-item-right > span 
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#action-item-left {
+    float:left;
+    width:170px;
+}
+
+/*
+ * Event schedule listing
+ * --------------------------------------------------
+ */
+ 
+.schedule-event > img, .schedule-event-alt > img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 121px;
+}
+
+.schedule-event-alt {
+  background: #f7f7f7;
+}
+
+/*
+ * Vendor listing
+ * --------------------------------------------------
+ */
+ 
+ .details-main-image
+ {
+     margin-bottom: 10px;
+ }
+
+.vendor-listing, .vendor-listing-alt {
+  padding: 1px 15px 10px 15px;
+}
+
+.vendor-listing-alt {
+  background: #f7f7f7;
+}
+
+.vendor-thumbnail {
+  width: 121px;
+}
+
+.vendor-listing-action {
+  width: 100%;
+  text-align: center;
+}
+
+.vendor-listing-action > a {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.vendor-image {
+  width: 125px;
+  margin-bottom: 10px;
+  margin-right: 5px
+}
+
+.row > .no-data 
+{
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*
+ * Don't Miss" List
+ * --------------------------------------------------
+ */
+ .nav-list-icons {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav-list a:first-child .event-title {
+    font-weight: bold;
+}
+
+div.event-image {
+float: left;
+width: 50px;
+min-height: 1px;
+margin-left: 20px;
+}
+
+.event-image > img {
+    width: 50px;
+}
+
+div.event-details {
+float: left;
+width: 115px;
+min-height: 1px;
+margin-left: 5px;
+}
+
+div.event-details span {
+display: block;
+}
+
+.dont-miss-list-header {
+  text-align: center;
+}
+
+.nav-header, span.event-date {
+color: #df263c;
+}
+
+#dont-miss-list-title {
+    max-width: 120px;
+}
+
+.nav-list .divider {
+    height: 1px;
+    margin: 9px 1px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid #ffffff;
+}
+
+.nav-list span {
+  color: #666666;
+  font-size: 12px;
+}
+
+#btnAddToList, #btnSearch {
+    display: none;
+}
+
+.no-data {
+    padding: 13px;
+    text-align: justify;
+}
+
+/*
+ * Event/Vendor Details
+ * --------------------------------------------------
+ */
+ 
+.event-details-container {
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.button-container {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.fb_iframe_widget, .fb_iframe_widget iframe[style], .fb_iframe_widget > span[style] {
+    width: 100% !important;
+}
+
+#successAlert, #errorAlert {
+    display: none;
+}
+
+.modal-iframe {
+    width: 100%;
+    height:500px;
+    border: 0;
+}
+
+.social-icons 
+{
+    margin-left: 10px;
+    vertical-align: top;
+    border: 0;
+}
+
+/*
+ * General
+ *---------------------------------------------------
+ */
+.full-length-text {
+    display: inline-block;   
+  }
+  
+  .shorthand-text {
+      display: none;
+  }
+  
+.input-form {
+    margin: 10px auto;
+    max-width: 515px;
+    padding: 19px 29px 29px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -100%; /* 12 columns */
+    margin-right: -15px;
+  }
+
+  .row-offcanvas-right.active {
+    right: 100%; /* 12 columns */
+    margin-right: 15px;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 100%; /* 12 columns */
+  }
+
+  #dont-miss-list-title {
+    max-width: 107px;
+  }
+
+  .schedule-event-action {
+    clear: left;
+  }
+
+  .button-container > .btn-primary, .button-container > .btn-success {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .vendor-listing-action {
+    width: 125px;
+    text-align: center;
+  }
+
+  .vendor-image {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-form {
+      margin-right: inherit;
+  }
+  
+  .full-length-text {
+    display: none;   
+  }
+  
+  .shorthand-text {
+      display: inline-block;
+  }
+}
+
+@media (max-width: 1205px)  
+{
+    #action-item 
+    {
+        margin-left: -15px;
+        text-align: center;
+    }
+    #action-item-right
+    {
+        display: none;
+    }
+
+    #action-item-left
+    {
+        float: right;
+    }
+}
