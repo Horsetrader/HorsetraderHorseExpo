@@ -1,0 +1,287 @@
+<body>
+    <form id="form1" runat="server">
+    <div class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar">
+                    </span><span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <a href="<%= ConfigurationManager.AppSettings["HorseExpoHomepage"] %>">
+                        <img src="assets/images/logo.png" style="width: 130px;" />
+                    </a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-form navbar-right" role="search">
+                <div class="right-inner-addon ">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <asp:TextBox ID="tbxSearch" runat="server" placeholder="Type here to search..." CssClass="form-control"></asp:TextBox>
+                    <asp:Button runat="server" ID="btnSearch" onclick="btnSearch_Click" />
+                </div>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="schedule">Schedule</a></li>
+                    <li class="active"><a href="exhibitors">Exhibitors</a></li>
+                    <li><a href="view-grounds-map?from=schedule">Map</a></li>
+                    <li><a href="assets/pdf/expo-pomona-coupons.pdf"></a></li>
+                </ul>
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.navbar -->
+    <div class="container">
+
+        <!-- /1330450/EquiFest_Responsive -->
+<div class="row" style="margin-bottom: 10px;">
+    <div class="col-xs-12 col-sm-12 col-md-7">
+
+<div id='div-gpt-ad-1484335000637-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1484335000637-0'); });
+</script>
+</div>
+</div>
+<div class="visible-md visible-lg col-md-5">
+        <div id="action-item-right" style="width:205px;">
+            <span>Powered by:</span>
+            <a href="http://horsetrader.com">
+                <img src="../assets/images/horsetrader-logo.jpg">
+            </a>
+        </div>
+        <div id="action-item-left">
+            <a href="https://docs.google.com/spreadsheet/ccc?key=0AslZcQFESyeGdHlTTUtSUU1GaC1VUGRFQXFETEZXb1E">
+                <img src="../assets/images/expo-calendar.jpg" />
+            </a>
+        </div>
+        
+    </div>
+</div>
+<!--stop banner ads here-->
+        <div class="row row-offcanvas row-offcanvas-right">
+            <div class="col-xs-12 col-sm-8 col-md-9">
+                <p class="pull-right visible-xs">
+                    <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">
+                        View my list <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button>
+                </p>
+                <h2>
+                    2017 EquiFest of Kansas Exhibitors</h2>
+                
+                <h4 class="visible-sm visible-md visible-lg" style="margin-top:-10px;">
+					<a style="text-decoration:none;" href="register">
+					<span style="font-size:30px;" class="glyphicon glyphicon-arrow-right"></span> 
+					<span style="vertical-align:super;">Register - Get updates of the EquiFest schedule changes or additions!</span>
+					</a>
+				</h4>
+
+                <!--Filter-->
+                <p>
+                    Filter by: 
+                    <asp:DropDownList ID="ddlVendorCategory" runat="server" CssClass="form-control" AutoPostBack="true"
+                        onselectedindexchanged="ddlVendorCategory_SelectedIndexChanged"></asp:DropDownList>
+                </p>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs nav-tabs-vendors">
+                    <li class="active">
+                        <a href="#all" data-toggle="tab">
+                            <span class="full-length-text">All Buildings</span>
+                            <span class="shorthand-text">All Bldgs.</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#building6" data-toggle="tab">
+                            <span class="full-length-text">Exhibition Hall</span>
+                            <span class="shorthand-text">Exhib. Hall</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#building7" data-toggle="tab">
+                            <span class="full-length-text">Purina Mall</span>
+                            <span class="shorthand-text">Purina Mall</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#building9" data-toggle="tab">
+                            <span class="full-length-text">Ponderosa Room</span>
+                            <span class="shorthand-text">Ponder. Room</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="all">
+                        <div class="row">
+                            <asp:Repeater ID="repAllBuildings" runat="server" onitemdatabound="repeater_ItemDataBound">
+                                <ItemTemplate>
+                                    <div class='col-12 col-sm-12 col-lg-12 <%# Container.ItemIndex % 2 == 0 ? "vendor-listing" : "vendor-listing-alt" %>'>
+                                        <h3>
+                                            <%# Eval("Name") %>
+                                            <br>
+                                            <small><%# Eval("Location") %> - Booth <%# Eval("Booth") %></small>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-8">
+                                                <%# GetImageHTML(Eval("ImageFileName").ToString(), Eval("Name").ToString())%>
+                                            </div>
+                                            <!--/span-->
+                                            <div class="col-xs-6 col-sm-4">
+                                                <div class="vendor-listing-action">
+                                                    <%# GetMoreDetailsButtonHTML((bool)Eval("IsAdvertiser"), Eval("ExpoVendorID").ToString())%>
+                                                    <%# GetAddToListButtonHTML(Eval("ExpoVendorID").ToString())%>
+                                                </div>
+                                            </div><!--/span-->
+
+                                        </div><!--/row-->
+
+                                    </div><!--/span-->
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                    <p class="no-data">
+                                        <asp:Label ID="lblEmptyData" runat="server" Visible="false"></asp:Label>
+                                    </p>
+                                </FooterTemplate>
+                            </asp:Repeater>
+                        </div>
+                    </div><!--/tab pane-->
+                    <div class="tab-pane" id="building6">
+                        <div class="row">
+                            <asp:Repeater ID="repBuilding6" runat="server" onitemdatabound="repeater_ItemDataBound">
+                                <ItemTemplate>
+                                    <div class='col-12 col-sm-12 col-lg-12 <%# Container.ItemIndex % 2 == 0 ? "vendor-listing" : "vendor-listing-alt" %>'>
+                                        <h3>
+                                            <%# Eval("Name") %>
+                                            <br>
+                                            <small><%# Eval("Location") %> - Booth <%# Eval("Booth") %></small>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-8">
+                                                <%# GetImageHTML(Eval("ImageFileName").ToString(), Eval("Name").ToString())%>
+                                            </div>
+                                            <!--/span-->
+                                            <div class="col-xs-6 col-sm-4">
+                                                <div class="vendor-listing-action">
+                                                    <%# GetMoreDetailsButtonHTML((bool)Eval("IsAdvertiser"), Eval("ExpoVendorID").ToString())%>
+                                                    <%# GetAddToListButtonHTML(Eval("ExpoVendorID").ToString())%>
+                                                </div>
+                                            </div><!--/span-->
+
+                                        </div><!--/row-->
+
+                                    </div><!--/span-->
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                    <p class="no-data">
+                                        <asp:Label ID="lblEmptyData" runat="server" Visible="false"></asp:Label>
+                                    </p>
+                                </FooterTemplate>
+                            </asp:Repeater>
+                        </div><!--/row-->
+
+                    </div><!--/tab pane-->
+                    <div class="tab-pane" id="building7">
+                        <div class="row">
+                            <asp:Repeater ID="repBuilding7" runat="server" onitemdatabound="repeater_ItemDataBound">
+                                <ItemTemplate>
+                                    <div class='col-12 col-sm-12 col-lg-12 <%# Container.ItemIndex % 2 == 0 ? "vendor-listing" : "vendor-listing-alt" %>'>
+                                        <h3>
+                                            <%# Eval("Name") %>
+                                            <br>
+                                            <small><%# Eval("Location") %> - Booth <%# Eval("Booth") %></small>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-8">
+                                                <%# GetImageHTML(Eval("ImageFileName").ToString(), Eval("Name").ToString())%>
+                                            </div>
+                                            <!--/span-->
+                                            <div class="col-xs-6 col-sm-4">
+                                                <div class="vendor-listing-action">
+                                                    <%# GetMoreDetailsButtonHTML((bool)Eval("IsAdvertiser"), Eval("ExpoVendorID").ToString())%>
+                                                    <%# GetAddToListButtonHTML(Eval("ExpoVendorID").ToString())%>
+                                                </div>
+                                            </div><!--/span-->
+
+                                        </div><!--/row-->
+
+                                    </div><!--/span-->
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                    <p class="no-data">
+                                        <asp:Label ID="lblEmptyData" runat="server" Visible="false"></asp:Label>
+                                    </p>
+                                </FooterTemplate>
+                            </asp:Repeater>
+                        </div>
+                    </div><!--/tab pane-->
+                    <div class="tab-pane" id="building9">
+                        <div class="row">
+                            <asp:Repeater ID="repBuilding9" runat="server" onitemdatabound="repeater_ItemDataBound">
+                                <ItemTemplate>
+                                    <div class='col-12 col-sm-12 col-lg-12 <%# Container.ItemIndex % 2 == 0 ? "vendor-listing" : "vendor-listing-alt" %>'>
+                                        <h3>
+                                            <%# Eval("Name") %>
+                                            <br>
+                                            <small><%# Eval("Location") %> - Booth <%# Eval("Booth") %></small>
+                                        </h3>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-sm-8">
+                                                <%# GetImageHTML(Eval("ImageFileName").ToString(), Eval("Name").ToString())%>
+                                            </div>
+                                            <!--/span-->
+                                            <div class="col-xs-6 col-sm-4">
+                                                <div class="vendor-listing-action">
+                                                    <%# GetMoreDetailsButtonHTML((bool)Eval("IsAdvertiser"), Eval("ExpoVendorID").ToString())%>
+                                                    <%# GetAddToListButtonHTML(Eval("ExpoVendorID").ToString())%>
+                                                </div>
+                                            </div><!--/span-->
+
+                                        </div><!--/row-->
+
+                                    </div><!--/span-->
+                                </ItemTemplate>
+                                <FooterTemplate>
+                                    <p class="no-data">
+                                        <asp:Label ID="lblEmptyData" runat="server" Visible="false"></asp:Label>
+                                    </p>
+                                </FooterTemplate>
+                            </asp:Repeater>
+                        </div>
+                    </div><!--/tab pane-->
+                </div>
+            </div><!--/span-->
+            <div class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                <uc:VendorList ID="ucVendorList" runat="server" />
+            </div><!--/span-->
+        </div><!--/row-->
+        <footer>
+        <p></p>
+      </footer>
+    </div>
+    <!--/.container-->
+
+    <!-- Email Modal -->
+    <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="emailModalLabel"></h4>
+          </div>  
+          <iframe id="sendEmail" class="modal-iframe" frameborder="0"></iframe>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <asp:Button ID="btnAddToList" runat="server" OnClick="btnAddToList_Click" />
+    <input type="hidden" id="eventOrderNumber" name="eventOrderNumber" runat="server" />
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/scripts/jquery-1.10.2.min.js"></script>
+    <script src="./assets/scripts/bootstrap.min.js"></script>
+    <script src="./assets/scripts/offcanvas.js"></script>
+    </form>
+</body>

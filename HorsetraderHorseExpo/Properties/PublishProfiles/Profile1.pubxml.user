@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>
+    </TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>C:\Users\Administrator\Documents\Published Sites\HorseExpo</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5BejwCxtg0uekdh++IrQXAAAAAACAAAAAAAQZgAAAAEAACAAAACWgxusE9bAcPvH0sD/7laivZhlJQ6lvPxWbm9VDMirlAAAAAAOgAAAAAIAACAAAABjUXBSuymxivgqnSt1wRkcRbh9pL2npdT30ZlpQ8++3xAAAAAp1yvqElfO+6fvAR7ebGEfQAAAAG/jz5mlZG1qvImvh6zQJN9l9phAoMWBtJvsb0dmvj+6PzKTAFT1hyNqnBmhTxxXm/5FM0dPz9AEp2hadTN9sGw=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/css/blueimp-gallery.min.css">
+      <publishTime>01/13/2014 10:23:40</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>01/15/2014 02:15:52</publishTime>
+    </File>
+    <File Include="assets/css/offcanvas.css">
+      <publishTime>05/15/2014 10:31:38</publishTime>
+    </File>
+    <File Include="assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/16/2013 18:37:28</publishTime>
+    </File>
+    <File Include="assets/images/accept.png">
+      <publishTime>08/13/2010 11:57:46</publishTime>
+    </File>
+    <File Include="assets/images/add-to-list.png">
+      <publishTime>12/06/2013 00:11:52</publishTime>
+    </File>
+    <File Include="assets/images/border.png">
+      <publishTime>05/13/2013 14:24:28</publishTime>
+    </File>
+    <File Include="assets/images/controls.png">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/denim.jpg">
+      <publishTime>12/16/2013 18:36:08</publishTime>
+    </File>
+    <File Include="assets/images/dont-miss-list.jpg">
+      <publishTime>05/23/2013 16:20:38</publishTime>
+    </File>
+    <File Include="assets/images/email.png">
+      <publishTime>05/14/2013 10:37:22</publishTime>
+    </File>
+    <File Include="assets/images/emailShowList.png">
+      <publishTime>05/20/2013 13:45:12</publishTime>
+    </File>
+    <File Include="assets/images/events/audrey_pavia.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/bonnie_davis.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/bryan_mcmurry.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/california_classic.JPG">
+      <publishTime>01/18/2014 13:10:08</publishTime>
+    </File>
+    <File Include="assets/images/events/charles_wilhelm.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/dana_boydmiller.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/eitan_bethhalachmy.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/elizabeth_kayemccall.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/gayle_carline.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/gina_miles.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/gypsy_vanner.jpg">
+      <publishTime>01/18/2014 13:25:44</publishTime>
+    </File>
+    <File Include="assets/images/events/heather_green.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/image-thumbnail.jpg">
+      <publishTime>01/21/2014 10:31:14</publishTime>
+    </File>
+    <File Include="assets/images/events/jackie_fenaroli.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/jane_savoie.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/jec_aristotleballou.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/john_lyons.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/jonathan_field.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/katherine_windfeatherthompson.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/katie_flynn.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/ken_wegner.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/kerri_lake.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/leslie_berndl.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/marcia_thibeault.jpg">
+      <publishTime>01/18/2014 10:12:12</publishTime>
+    </File>
+    <File Include="assets/images/events/max_wilcox.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/nick_karazissis.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/peter_kriger.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/sandy_collier.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/sharon_camarillo.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/steven_law.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/susan_harris_peggy_brown.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/teresa_spencer.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/tim_kimura.jpg">
+      <publishTime>01/18/2014 10:12:14</publishTime>
+    </File>
+    <File Include="assets/images/events/tom_seay.jpg">
+      <publishTime>01/18/2014 17:23:20</publishTime>
+    </File>
+    <File Include="assets/images/events/ultimate_superhorse.jpg">
+      <publishTime>01/18/2014 12:37:08</publishTime>
+    </File>
+    <File Include="assets/images/expo-calendar.jpg">
+      <publishTime>05/23/2013 10:54:30</publishTime>
+    </File>
+    <File Include="assets/images/expo-coupons.jpg">
+      <publishTime>05/23/2013 10:54:22</publishTime>
+    </File>
+    <File Include="assets/images/facebook_logo.gif">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/header-background.jpg">
+      <publishTime>05/15/2013 10:57:54</publishTime>
+    </File>
+    <File Include="assets/images/help.png">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/horse-expo-pomona-logo.png">
+      <publishTime>01/22/2014 08:27:30</publishTime>
+    </File>
+    <File Include="assets/images/horse-expo-pomona-print-footer.jpg">
+      <publishTime>01/16/2014 12:29:18</publishTime>
+    </File>
+    <File Include="assets/images/horse-expo-pomona-print-header.jpg">
+      <publishTime>01/16/2014 12:29:06</publishTime>
+    </File>
+    <File Include="assets/images/horse-expo-print-footer.jpg">
+      <publishTime>05/22/2013 11:04:34</publishTime>
+    </File>
+    <File Include="assets/images/horse-expo-print-header.jpg">
+      <publishTime>05/22/2013 11:02:26</publishTime>
+    </File>
+    <File Include="assets/images/horsetrader-logo.jpg">
+      <publishTime>05/22/2013 14:35:18</publishTime>
+    </File>
+    <File Include="assets/images/HORSEXPO_searchframe.jpg">
+      <publishTime>05/15/2013 10:45:52</publishTime>
+    </File>
+    <File Include="assets/images/house.png">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/listView.jpg">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/loading.gif">
+      <publishTime>05/13/2013 14:24:28</publishTime>
+    </File>
+    <File Include="assets/images/loading_background.png">
+      <publishTime>05/13/2013 14:24:28</publishTime>
+    </File>
+    <File Include="assets/images/logo.png">
+      <publishTime>12/20/2013 12:59:34</publishTime>
+    </File>
+    <File Include="assets/images/logo.svg">
+      <publishTime>12/16/2013 18:36:08</publishTime>
+    </File>
+    <File Include="assets/images/map.png">
+      <publishTime>05/14/2013 09:45:14</publishTime>
+    </File>
+    <File Include="assets/images/maps/fairplex-grounds-map-90.jpg">
+      <publishTime>01/09/2014 12:40:12</publishTime>
+    </File>
+    <File Include="assets/images/maps/fairplex-grounds-map.jpg">
+      <publishTime>01/09/2014 11:41:58</publishTime>
+    </File>
+    <File Include="assets/images/noimage.jpg">
+      <publishTime>05/14/2013 10:12:28</publishTime>
+    </File>
+    <File Include="assets/images/on-my-list.png">
+      <publishTime>12/06/2013 00:12:52</publishTime>
+    </File>
+    <File Include="assets/images/pictureView.jpg">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/print.jpg">
+      <publishTime>05/20/2013 13:46:10</publishTime>
+    </File>
+    <File Include="assets/images/remove.png">
+      <publishTime>05/20/2013 12:49:40</publishTime>
+    </File>
+    <File Include="assets/images/search-sidebar.jpg">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/searchboxSeparator.png">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/SearchButton_bg.png">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/share-facebook.png">
+      <publishTime>01/10/2014 13:29:48</publishTime>
+    </File>
+    <File Include="assets/images/twitterIcon.png">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/images/user.png">
+      <publishTime>06/03/2010 11:44:34</publishTime>
+    </File>
+    <File Include="assets/images/vendors/image-not-available.jpg">
+      <publishTime>12/19/2013 11:51:02</publishTime>
+    </File>
+    <File Include="assets/scripts/bootstrap.min.js">
+      <publishTime>12/16/2013 17:01:42</publishTime>
+    </File>
+    <File Include="assets/scripts/general.js">
+      <publishTime>05/23/2013 09:13:20</publishTime>
+    </File>
+    <File Include="assets/scripts/jquery-1.10.2.min.js">
+      <publishTime>12/16/2013 17:02:32</publishTime>
+    </File>
+    <File Include="assets/scripts/jQuery-1.8.2.js">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/scripts/jquery.blueimp-gallery.min.js">
+      <publishTime>01/13/2014 10:29:36</publishTime>
+    </File>
+    <File Include="assets/scripts/jquery.colorbox.js">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/scripts/jquery.validate.min.js">
+      <publishTime>01/07/2014 01:31:38</publishTime>
+    </File>
+    <File Include="assets/scripts/jquery.watermark.js">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/scripts/offcanvas.js">
+      <publishTime>06/10/2014 10:19:24</publishTime>
+    </File>
+    <File Include="assets/stylesheets/201.css">
+      <publishTime>06/04/2013 10:52:00</publishTime>
+    </File>
+    <File Include="assets/stylesheets/202.css">
+      <publishTime>12/05/2013 23:35:00</publishTime>
+    </File>
+    <File Include="assets/stylesheets/aspstyle.css">
+      <publishTime>05/23/2013 16:31:28</publishTime>
+    </File>
+    <File Include="assets/stylesheets/bootstrap.css">
+      <publishTime>05/23/2013 10:13:42</publishTime>
+    </File>
+    <File Include="assets/stylesheets/colorbox.css">
+      <publishTime>05/13/2013 14:24:30</publishTime>
+    </File>
+    <File Include="assets/stylesheets/print.css">
+      <publishTime>06/06/2013 13:38:36</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>01/26/2017 11:23:18</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>01/26/2017 11:23:17</publishTime>
+    </File>
+    <File Include="bin/HorsetraderHorseExpo.dll">
+      <publishTime>02/08/2017 10:33:13</publishTime>
+    </File>
+    <File Include="bin/Recaptcha.dll">
+      <publishTime>12/14/2010 17:19:48</publishTime>
+    </File>
+    <File Include="configuration.asp">
+      <publishTime>04/11/2011 12:27:36</publishTime>
+    </File>
+    <File Include="email-opt-in.aspx">
+      <publishTime>03/06/2014 11:30:20</publishTime>
+    </File>
+    <File Include="emailclinician.asp">
+      <publishTime>05/27/2013 15:57:10</publishTime>
+    </File>
+    <File Include="emailclinician_submit.asp">
+      <publishTime>05/23/2013 16:32:54</publishTime>
+    </File>
+    <File Include="emailfriend.asp">
+      <publishTime>05/27/2013 15:55:58</publishTime>
+    </File>
+    <File Include="emailfriend_submit.asp">
+      <publishTime>05/23/2013 16:32:52</publishTime>
+    </File>
+    <File Include="event-details.aspx">
+      <publishTime>03/06/2014 11:30:20</publishTime>
+    </File>
+    <File Include="event-details2.aspx">
+      <publishTime>05/23/2014 16:16:56</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/20/2013 13:59:56</publishTime>
+    </File>
+    <File Include="favicon.png">
+      <publishTime>05/28/2013 11:53:36</publishTime>
+    </File>
+    <File Include="file1.txt">
+      <publishTime>02/06/2017 16:02:36</publishTime>
+    </File>
+    <File Include="file2.txt">
+      <publishTime>02/06/2017 16:02:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/13/2013 14:24:28</publishTime>
+    </File>
+    <File Include="include/ado_security.asp">
+      <publishTime>11/17/2011 14:51:18</publishTime>
+    </File>
+    <File Include="include/configuration.asp">
+      <publishTime>10/01/2012 12:19:44</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>03/06/2014 11:30:20</publishTime>
+    </File>
+    <File Include="index2.aspx">
+      <publishTime>06/10/2014 10:29:20</publishTime>
+    </File>
+    <File Include="print-event-list.aspx">
+      <publishTime>03/06/2014 11:10:08</publishTime>
+    </File>
+    <File Include="print-exhibitor-list.aspx">
+      <publishTime>03/06/2014 11:30:20</publishTime>
+    </File>
+    <File Include="print-list-sample-1.aspx">
+      <publishTime>12/20/2013 14:05:08</publishTime>
+    </File>
+    <File Include="print-list-sample-2.aspx">
+      <publishTime>12/20/2013 14:05:08</publishTime>
+    </File>
+    <File Include="results.aspx">
+      <publishTime>03/06/2014 11:30:20</publishTime>
+    </File>
+    <File Include="results2.aspx">
+      <publishTime>05/09/2014 16:21:42</publishTime>
+    </File>
+    <File Include="send-email-friend-mobile.aspx">
+      <publishTime>03/06/2014 11:30:20</publishTime>
+    </File>
+    <File Include="send-email-friend.aspx">
+      <publishTime>03/06/2014 11:30:20</publishTime>
+    </File>
+    <File Include="send-email-list-mobile.aspx">
+      <publishTime>03/06/2014 11:30:18</publishTime>
+    </File>
+    <File Include="send-email-list-vendor-mobile.aspx">
+      <publishTime>03/06/2014 11:30:18</publishTime>
+    </File>
+    <File Include="send-email-list-vendor.aspx">
+      <publishTime>03/06/2014 11:30:18</publishTime>
+    </File>
+    <File Include="send-email-list.aspx">
+      <publishTime>03/06/2014 11:30:18</publishTime>
+    </File>
+    <File Include="send-email-vendor-mobile.aspx">
+      <publishTime>03/06/2014 11:30:18</publishTime>
+    </File>
+    <File Include="send-email-vendor.aspx">
+      <publishTime>03/06/2014 11:30:18</publishTime>
+    </File>
+    <File Include="send-email.aspx">
+      <publishTime>12/20/2013 14:05:08</publishTime>
+    </File>
+    <File Include="usercontrols/banner-ads.ascx">
+      <publishTime>05/19/2014 13:09:04</publishTime>
+    </File>
+    <File Include="usercontrols/event-queue.ascx">
+      <publishTime>01/22/2014 10:27:40</publishTime>
+    </File>
+    <File Include="usercontrols/footer.ascx">
+      <publishTime>03/06/2014 11:30:18</publishTime>
+    </File>
+    <File Include="usercontrols/google-ads-code.ascx">
+      <publishTime>05/19/2014 13:18:18</publishTime>
+    </File>
+    <File Include="usercontrols/google-analytics.ascx">
+      <publishTime>03/06/2014 12:37:28</publishTime>
+    </File>
+    <File Include="usercontrols/header.ascx">
+      <publishTime>06/04/2013 10:17:20</publishTime>
+    </File>
+    <File Include="usercontrols/responsive-recaptcha.ascx">
+      <publishTime>01/14/2014 09:48:14</publishTime>
+    </File>
+    <File Include="usercontrols/search.ascx">
+      <publishTime>05/22/2013 14:38:26</publishTime>
+    </File>
+    <File Include="usercontrols/vendor-list.ascx">
+      <publishTime>01/22/2014 11:37:10</publishTime>
+    </File>
+    <File Include="vendor-details.aspx">
+      <publishTime>05/23/2014 15:50:34</publishTime>
+    </File>
+    <File Include="vendors-listing.aspx">
+      <publishTime>06/10/2014 12:18:40</publishTime>
+    </File>
+    <File Include="view-grounds-map.aspx">
+      <publishTime>05/09/2014 16:21:42</publishTime>
+    </File>
+    <File Include="view-map.aspx">
+      <publishTime>01/13/2014 10:31:40</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/01/2017 13:51:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
